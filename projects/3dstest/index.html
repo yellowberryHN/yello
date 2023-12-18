@@ -1,0 +1,109 @@
+<html>
+<head>
+	<meta name="viewport" content="width=538, initial-scale=2, maximum-scale=2, minimum-scale=2">
+	<style>
+	html {
+        text-align: center;
+        font-family: Helvetica, Arial, Helvetica, sans-serif;
+    }
+    .buttonvis
+    {
+      font-family: Impact;
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0 32px;
+    }
+</style>
+</head>
+<body style="padding:0;margin:0;overflow:hidden;" width=538 height=640>
+<script>
+	setInterval(function(){ window.scrollTo(55, 288); }, 10);
+function print_arrow_key(keyCodeNumber) {
+    // console.log(keyCodeNumber);
+    var key_arrow_or_other = document.getElementById('key_arrow_or_other'),
+        LEFT = 37,
+        UP = 38,
+        RIGHT = 39,
+        DOWN = 40;
+
+    switch (keyCodeNumber) {
+    case LEFT:
+        key_arrow_or_other.innerHTML = 'Left';
+        break;
+    case UP:
+        key_arrow_or_other.innerHTML = 'Up';
+        break;
+    case RIGHT:
+        key_arrow_or_other.innerHTML = 'Right';
+        break;
+    case DOWN:
+        key_arrow_or_other.innerHTML = 'Down';
+        break;
+    default:
+        key_arrow_or_other.innerHTML = 'Other character (not an arrow key)';
+        break;
+    }
+
+    key_arrow_or_other.innerHTML += ' (keyCode: ' + keyCodeNumber + ')';
+}
+
+function checkKeycode(event) {
+    // handling Internet Explorer stupidity with window.event
+    // @see http://stackoverflow.com/a/3985882/517705
+    var keyDownEvent = event || window.event,
+        keycode = (keyDownEvent.which) ? keyDownEvent.which : keyDownEvent.keyCode;
+
+    print_arrow_key(keycode);
+
+    return false;
+}
+
+document.onkeydown = checkKeycode;
+</script>
+<div style="width:538px;height:288px;background-color:green;overflow:hidden;" tabindex='0' onscroll="return false" onfocus='this.blur()'>
+	<p>fuck</p>
+</div>
+<div style="position:absolute;left:55px;width:430px;height:286px;background-color:blue;overflow:hidden;" tabindex='0' onfocus='this.blur()'>
+<p>shit</p>
+<div id="key_arrow_or_other">
+    Push any of the arrow keys!
+  </div>
+<span class="buttonvis b">B</span> <span class="buttonvis a">A</span>
+<input type="range" name="buttoninput" style="position: absolute; left: 16px; bottom: 16px; width: 1px; height: 1px; border: none; padding: 0; z-index: -1; line-height: 0; font-size: 0; -webkit-user-select: none;" />
+</div>
+</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      var 
+      aTimeout = null,
+      bTimeout = null,
+      bPress = false;
+
+
+      $("[name='buttoninput']").blur(function (e) {
+        $(this).focus();
+        if (bPress == true) {
+            clearTimeout(bTimeout);
+            $(".b").css("color", "red");
+            bTimeout = setTimeout(function () {
+              $(".b").css("color", "black");
+            }, 100);
+            bPress = false;
+        }
+      }).keydown(function (e) {
+        bPress = false;
+        if (e.which == 13) {
+          clearTimeout(aTimeout);
+          $(".a").css("color", "green");
+          aTimeout = setTimeout(function () {
+            $(".a").css("color", "black");
+          }, 100);
+          bPress = true;
+        }
+
+      }).focus();
+    });
+  </script>
+</body>
+</html>

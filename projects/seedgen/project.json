@@ -1,0 +1,7 @@
+{
+  "name": "seedgen",
+  "desc": "seedgen is a simple program written in C# that allows you to play around with [minecraft](https://minecraft.net) seeds.",
+  "url": "https://github.com/yellowberryHN/SeedGen",
+  "image": "moss.png",
+  "old": true
+}
