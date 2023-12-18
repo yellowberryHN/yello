@@ -15,34 +15,35 @@
 require_once('inc/Slimdown.php');
 
 $old_projects = [];
+$old_shown = true;
 
 function get_project_url($name, $project) {
-    if (key_exists('url',$project)) {
-        return $project['url'];
+    if (isset($project->url)) {
+        return $project->url;
     } else {
         return './' . $name;
     }
 }
 
-function get_project_image($project) {
-    if (key_exists('image',$project)) {
-        return implode(DIRECTORY_SEPARATOR, ['.', $project['name'], $project['image']]);
+function get_project_image($name, $project) {
+    if (isset($project->image)) {
+        return implode(DIRECTORY_SEPARATOR, ['.', $name, $project->image]);
     } else {
         return '';
     }
 }
 
 function get_project_name($name, $project) {
-    if (key_exists('name',$project)) {
-        return $project['name'];
+    if (isset($project->name)) {
+        return $project->name;
     } else {
         return $name;
     }
 }
 
 function get_project_desc($project) {
-    if (key_exists('desc',$project)) {
-        return $project['desc'];
+    if (isset($project->desc)) {
+        return $project->desc;
     } else {
         return '';
     }
@@ -52,19 +53,19 @@ $dirs = array_values(array_filter(glob('*'), 'is_dir'));
 foreach($dirs as $id => $proj_name) {
     if (file_exists("$proj_name/project.json")) {
         $p = json_decode(file_get_contents("$proj_name/project.json"));
-        if (key_exists('old', $p)) {
-            if ($p['old']) {
-                $old_projects[] = [$proj_name => $p];
+        if (isset($p->old)) {
+            if ($p->old) {
+                $old_projects[] = [$proj_name, $p];
                 continue;
             }
         }
     }
     else continue;
 
+    $name = get_project_name($proj_name, $p);
     $desc = Slimdown::render(get_project_desc($p));
     $url = get_project_url($proj_name, $p);
-    $image = get_project_image($p);
-    $name = get_project_name($proj_name, $p);
+    $image = get_project_image($proj_name, $p);
 
 echo "<div class=\"flex-item\">
 <div class=\"project-wrapper\">
@@ -81,17 +82,19 @@ echo "<div class=\"flex-item\">
 ?>
 </div>
 
-<?php
+    <?php
 
-if(count($old_projects) > 0) {
+if(count($old_projects) > 0 && $old_shown) {
 
-    echo '<h1>former projects</h1><div class="flex-container flex-container-style fixed-height">';
+    echo '<h1 id="title">former projects</h1><div class="flex-container flex-container-style fixed-height">';
 
-foreach ($old_projects as $proj_name => $p) {
-    $name = get_project_name($proj_name, $p);
-    $desc = Slimdown::render(get_project_desc($p));
-    $url = get_project_url($proj_name, $p);
-    $image = get_project_image($p);
+foreach ($old_projects as $p) {
+
+    $name = get_project_name($p[0], $p[1]);
+    $desc = Slimdown::render(get_project_desc($p[1]));
+    $url = get_project_url($p[0], $p[1]);
+    $image = get_project_image($p[0], $p[1]);
+
 
     echo "<div class=\"flex-item\">
 <div class=\"project-wrapper\">
