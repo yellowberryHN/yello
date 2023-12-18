@@ -35,7 +35,7 @@
           <li><a href="https://github.com/openlsr">openlsr</a> — a collection of projects to bring lego stunt rally back to life</li>
           <li><a href="https://yellowberry.bandcamp.com">yellotunes</a> — the music that i produce</li>
           <li><a href="https://github.com/yellowberryhn/enginedetect">enginedetect</a> — a cool python script to detect game engines</li>
-          <li><a href="/projects">... and many, many more.</a> some might say i have too many projects.
+          <li><a href="/projects">... and many, many more.</a> i have too many projects.
       </ul>
       <p>i will eventually put more stuff here, but for now this is all i will write.</p>
       <h5>full source available on <a href="https://github.com/yellowberryhn/yello">github</a> (when i remember to update it)</br>
