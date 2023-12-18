@@ -1,0 +1,6 @@
+{
+  "name": "DiVEwall",
+  "image": "divewall.png",
+  "desc": "a server emulator for the arcade game WACCA written in ruby on rails",
+  "old": false
+}
