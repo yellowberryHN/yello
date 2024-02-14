@@ -9,7 +9,9 @@ title: my projects
 <h1 class="title">my projects — <a href="/">back to main</a></h1>
 <div class="flex-container flex-container-style fixed-height">
 {% for project in current_projects %}
-    {% include projects/item.html project=project %}
+    {% unless project.old %}
+        {% include projects/item.html project=project %}
+    {% endunless %}
 {% endfor %}
 </div>
 <h1 class="title">former projects</h1>
