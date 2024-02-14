@@ -1,6 +1,7 @@
 ---
 name: yello.ooo
 slug: yello
+image: yello.png
 site: "https://yello.ooo"
 ---
 

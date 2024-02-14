@@ -1,6 +1,7 @@
 ---
 name: Carmine Impact
 slug: carmine
+image: carmine.png
 site: https://harpnetstudios.com/games/carmine
 ---
 
