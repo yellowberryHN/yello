@@ -1,0 +1,59 @@
+### where i exist
+
+- **ancient communication:**
+  - email — [yellowberry@cocaine.ninja](mailto:yellowberry@cocaine.ninja) (public), [zsolt@harpnet.io](mailto:zsolt@harpnet.io) (business)
+  - cellular — [+1 (385) 200-1615](tel:+13852001615) (public)
+  - irc — zsoltisawesome on freenode
+- **instant messaging:**
+  - skype — [zsoltisawesome](skype:zsoltisawesome?chat)
+  - discord — <a href="https://discord.com/users/608720898845048833" onclick="return false" title="discord, please allow profile links, i'm begging you.">yellowberryhn</a> (Yellow#7755) <span class="redtext">[fuck&nbsp;pomelos]</span>
+  - escargot — [yellowberry@escargot.chat](msnim:chat?yellowberry@escargot.chat)
+- **programming:**
+  - github — [yellowberryhn](https://github.com/yellowberryhn)
+- **music:**
+  - bandcamp — [yellowberry](https://bandcamp.com/yellowberry) ([artist page](https://yellowberry.bandcamp.com/))
+  - discogs — [yellowberryhn](https://www.discogs.com/user/yellowberryhn)
+  - last.fm — [zsoltisawesome](https://last.fm/user/zsoltisawesome)
+  - soundcloud — [yellowberry](https://soundcloud.com/yellowberry)
+  - spotify — [\[yellowberryhn\]](https://open.spotify.com/user/%5Byellowberryhn%5D)
+- **social media:**
+  - twitter — [yellowberry__](https://twitter.com/yellowberry__)
+  - bluesky — [yello.ooo](https://bsky.app/profile/did:plc:mmq4bbonp3jetjvtd7fong77)
+  - threads — [yellowberryhn](https://www.threads.net/@yellowberryhn)
+  - snapchat — [yello.ooo](https://www.snapchat.com/add/yello.ooo)
+  - instagram — [yellowberryhn](https://www.instagram.com/YellowberryHN/)
+  - tumblr — [realtinymonster](https://realtinymonster.tumblr.com/), [yellowberryhn](https://yellowberryhn.tumblr.com/)
+  - reddit — [yellowberryhn](https://www.reddit.com/user/yellowberryhn/)
+  - linkedin — [yellowberryhn](https://www.linkedin.com/in/yellowberryhn)
+- **audiovisual content:**
+  - youtube — [yellowberry](https://youtube.com/user/zsoltisawesome)
+  - twitch — [yellowberryhn](https://twitch.tv/yellowberryhn)
+  - dlive — [yellowberryhn](https://dlive.tv/YellowberryHN)
+- **gaming:**
+  - hnid — [yellowberryhn](https://hnid.cc/0x01)
+  - steam — [yellowberryhn](https://steamcommunity.com/id/yellowberryhn)
+  - itch.io — [yellowberryhn](https://itch.io/profile/yellowberryhn) ([creator page](https://yellowberryhn.itch.io/))
+  - roblox — [zsoltisawesome](https://www.roblox.com/users/10179546/profile)
+  - lichess — [yellowberryhn](https://lichess.org/@/yellowberryhn)
+  - osu! — [yellowberryhn](https://osu.ppy.sh/u/yellowberryhn)
+  - the powder toy — [yellowberry](https://powdertoy.co.uk/User.html?Name=yellowberry)
+  - gamejolt — [yellowberryhn](https://gamejolt.com/@yellowberryhn)
+  - nexusmods — [yellowberryhn](https://www.nexusmods.com/users/148160313)
+  - speedrun.com — [yellowberry](https://www.speedrun.com/users/yellowberry)
+- **friend codes:**
+  - switch — [SW-8331-9885-2213](https://lounge.nintendo.com/friendcode/8331-9885-2213/Cr8Zp7JTHQ)
+  - music diver — fgN3bCPc
+- **forums:**
+  - minetest — [zsoltisawesome](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=1098)
+  - tm-forum — [yellowberryhn](https://www.tm-forum.com/memberlist.php?mode=viewprofile&u=42974)
+  - vivaldi — [yellowberry](https://forum.vivaldi.net/user/yellowberry)
+- **misc:**
+  - archive.org — [yellowberryhn](https://archive.org/details/@yellowberryhn)
+  - goodreads — [yellowberryhn](https://www.goodreads.com/yellowberryhn)
+  - greenfoot — [zsoltisawesome](https://www.greenfoot.org/users/2879)
+  - medium — [yellowberryhn](https://medium.com/@YellowberryHN)
+  - myanimelist — [yellowberryhn](https://myanimelist.net/profile/YellowberryHN)
+  - openstreetmap — [yellowberryhn](https://www.openstreetmap.org/user/YellowberryHN)
+  - opensubtitles — [yellowberry](https://www.opensubtitles.org/en/profile/iduser-9703487)
+  - unsplash — [yellowberryhn](https://unsplash.com/@yellowberryhn)
+  - wikipedia — [yellowberryhn](https://en.wikipedia.org/wiki/User:YellowberryHN)

@@ -1,0 +1,20 @@
+---
+layout: projects/main
+title: my projects
+---
+
+{% assign current_projects = site.projects | where: "old", nil %}
+{% assign old_projects = site.projects | where: "old", true %}
+
+<h1 class="title">my projects — <a href="/">back to main</a></h1>
+<div class="flex-container flex-container-style fixed-height">
+{% for project in current_projects %}
+    {% include projects/item.html project=project %}
+{% endfor %}
+</div>
+<h1 class="title">former projects</h1>
+<div class="flex-container flex-container-style fixed-height">
+{% for project in old_projects %}
+    {% include projects/item.html project=project %}
+{% endfor %}
+</div>

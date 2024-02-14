@@ -1,0 +1,18 @@
+{% assign project = include.project %}
+
+{% if project.site %}
+    {% assign project_url = project.site %}
+{% else %}
+    {% assign project_url = project.url %}
+{% endif %}
+
+<div class="flex-item">
+    <div class="project-wrapper">
+        <div class="project-content">
+            <div class="project-image" style="background-image: url('/assets/img/projects/{{ project.image }}')"></div>
+        <div class="project-name bold">{{ project.name }}</div>
+    </div>
+    <div class="project-desc">{{ project.content }}</div>
+    <a href="{{ project_url }}"><div class="project-link bold"><span>Visit project page</span></div></a>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+url: "https://yello.ooo"
+title: "yello.ooo"
+
+exclude:
+  - .idea/
+  - .git/
+  - .gitignore
+  - .gitmodules
+  - README.md
+collections:
+  projects:
+    permalink: /:collection/:title/

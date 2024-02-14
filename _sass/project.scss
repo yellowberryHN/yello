@@ -1,0 +1,101 @@
+body {
+  max-width: unset;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-image, .project-desc {
+  width:256px;
+  height:256px;
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-name, .project-desc{
+  word-wrap: normal;
+  max-width:256px;
+}
+.flex-item{
+  background-color: #000;
+  margin:16px;
+  -webkit-border-radius: 0px 20px 0px 20px;
+  -moz-border-radius: 0px 20px 0px 20px;
+  border-radius: 0px 20px 0px 20px;
+  border:3px solid #FFFF00;
+}
+.project-name{
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(127,127,127,0.2);
+  width: auto;
+  border-radius: 0px 16px 0px 16px;
+  -moz-border-radius: 0px 16px 0px 16px;
+  -webkit-border-radius: 0px 16px 0px 16px;
+}
+.project-link{
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(127,127,127,0.2);
+  width: auto;
+  border-radius: 0px 16px 0px 16px;
+  -moz-border-radius: 0px 16px 0px 16px;
+  -webkit-border-radius: 0px 16px 0px 16px;
+}
+.project-wrapper:hover .project-link {
+  opacity: 1;
+}
+.project-image {
+  -webkit-border-radius: 0px 16px 0px 16px;
+  -moz-border-radius: 0px 16px 0px 16px;
+  border-radius: 0px 16px 0px 16px;
+}
+.project-wrapper {
+  position:relative;
+}
+.project-desc p{
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+}
+.project-link span{
+  margin: 0;
+  color: #ff0;
+}
+.project-wrapper .project-desc{
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.project-wrapper .project-name{
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.project-wrapper .project-image{
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.project-wrapper:hover .project-desc{
+  /* display : block; */
+  opacity: 1;
+}
+.project-wrapper:hover .project-name{
+  opacity: 0;
+  /* display : none; */
+}
+.project-wrapper:hover .project-image{
+  opacity: 0.6;
+}
