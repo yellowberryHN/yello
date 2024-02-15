@@ -1,6 +1,7 @@
 ---
 name: SRtoolbox
 slug: srtoolbox
+image: srtoolbox.png
 site: https://github.com/OpenLSR/SRtoolbox
 ---
 

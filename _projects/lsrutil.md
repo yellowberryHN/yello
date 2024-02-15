@@ -1,6 +1,7 @@
 ---
 name: LSRutil.NET
 slug: lsrutil
+image: lsrutil.png
 site: https://github.com/OpenLSR/LSRutil.NET
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: PlateValidator
 slug: platevalidator
+image: platevalidator.png
 site: https://github.com/yellowberryHN/plate_validator
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: enginedetect
 slug: enginedetect
+image: enginedetect.png
 site: https://github.com/yellowberryHN/enginedetect
 ---
 

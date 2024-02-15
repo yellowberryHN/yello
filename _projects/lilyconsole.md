@@ -1,6 +1,7 @@
 ---
 name: LilyConsole
 slug: lilyconsole
+image: lilyconsole.png
 site: https://github.com/yellowberryhn/LilyConsole
 ---
 
