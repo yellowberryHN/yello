@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "your local hellhole"
+description: it's like a trash compactor for your soul.
 ---
 {% if jekyll.environment == 'production' %}
 # [dev.yello.ooo](https://dev.yello.ooo) — zsolt zitting's testbed
