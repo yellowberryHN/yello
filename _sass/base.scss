@@ -57,3 +57,22 @@ a[href^="tel:"]:before {
   pointer-events: none;
   user-select: none;
 }
+
+.github-corner {
+  position:absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+  z-index: 10
+}
+
+.github-corner svg {
+  fill: $accentColor;
+  color: $backgroundColor;
+}
+
+@media (max-width: 480px) {
+  .github-corner {
+    display: none;
+  }
+}
