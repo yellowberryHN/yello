@@ -2,9 +2,13 @@
 layout: default
 title: "your local hellhole"
 ---
-
+{% if jekyll.environment == 'production' %}
+# [dev.yello.ooo](https://dev.yello.ooo) — zsolt zitting's testbed
+## welcome to the funny testing zone.
+{% else %}
 # [yello.ooo](https://yello.ooo) — zsolt zitting's website
-## it's like a trash compactor for your soul.
+## {{ site.tagline }}
+{% endif %}
 
 {% include ascii.html %}
 

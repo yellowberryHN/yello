@@ -25,7 +25,7 @@ h1 {
   -webkit-border-radius: 0px 20px 0px 20px;
   -moz-border-radius: 0px 20px 0px 20px;
   border-radius: 0px 20px 0px 20px;
-  border:3px solid #FFFF00;
+  border:3px solid $accentColor;
 }
 .project-name{
   position: absolute;
@@ -66,7 +66,7 @@ h1 {
 }
 .project-link span{
   margin: 0;
-  color: #ff0;
+  color: $accentColor;
 }
 .project-wrapper .project-desc{
   opacity: 0;

@@ -1,5 +1,6 @@
 url: "https://yello.ooo"
 title: "yello.ooo"
+tagline: "it's like a trash compactor for your soul."
 
 exclude:
   - .idea/
@@ -8,5 +9,9 @@ exclude:
   - .gitmodules
   - README.md
 collections:
+  posts:
+    permalink: /blog/:title
   projects:
     permalink: /:collection/:title/
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
