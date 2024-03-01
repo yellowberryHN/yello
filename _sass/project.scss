@@ -99,3 +99,46 @@ h1 {
 .project-wrapper:hover .project-image{
   opacity: 0.25;
 }
+
+/* individual project pages */
+
+#project-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 28px;
+  text-align: center;
+  color: $accentColor;
+}
+
+
+.downloadBtn {
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  color: $backgroundColor;
+  font-weight: 700;
+  border-radius: 20px;
+  text-shadow: 1px 1px 0px #666;
+  background: $accentColor;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.downloadBtn:hover {
+  color: $backgroundColor;
+  background: $accentHoverColor;
+}
+
+
+table {
+  margin: 0 auto;
+}
+
+table img {
+  width: 100%;
+  max-height: 300px;
+}

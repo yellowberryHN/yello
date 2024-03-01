@@ -1,35 +1,39 @@
 <DLC>
-	<dir_url>https://yello.ooo/files/zineth</dir_url>
+	<dir_url>https://github.com/yellowberryHN/ZinethCommunityEdition/releases/tag</dir_url>
 	<status>
-		<current>v0_24</current>
+		<current>v0_27</current>
 		<url>https://yello.ooo/projects/zineth</url>
 		<message>Zineth Community Edition server says hello!</message>
 	</status>
 	<versions>
 		<v0_27>
-			<info>updater test</info>
-			<date>2023-12-09</date>
-			<url>{dir}/info.xml</url>
+			<info>first community edition release</info>
+			<date>2024-03-01</date>
+			<url>{dir}/v0_27</url>
 			<changes>
-				<c>change 1</c>
-				<c>change 2</c>
-				<c>added lizards</c>
+				<c>too many to list!</c>
 			</changes>
+			<!--
+			<dlc>
+				<bruh>
+					<name>test dlc #1</name>
+					<file_url>{dir}</file_url>
+				</bruh>
+			</dlc>
+			-->
 		</v0_27>
 		<v0_24>
 			<info>last official version</info>
 			<date>2012-10-05</date>
-			<url>{dir}/zineth_0_24.zip</url>
+			<url>https://yello.ooo/files/zineth/zineth_0_24.zip</url>
 		</v0_24>
 		<v0_237>
-			<info></info>
 			<date>2012-08-28</date>
-			<url>{dir}/zineth_0_237.zip</url>
+			<url>https://yello.ooo/files/zineth/zineth_0_237.zip</url>
 		</v0_237>
 		<v0_235>
-			<info></info>
 			<date>2012-08-12</date>
-			<url>{dir}/zineth.zip</url>
+			<url>https://yello.ooo/files/zineth/zineth.zip</url>
 		</v0_235>
 	</versions>
 </DLC>
