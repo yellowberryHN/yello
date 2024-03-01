@@ -2,6 +2,8 @@ url: "https://yello.ooo"
 title: "yello.ooo"
 tagline: "it's like a trash compactor for your soul."
 
+page_excerpts: true
+
 exclude:
   - .idea/
   - .git/

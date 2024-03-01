@@ -2,6 +2,11 @@
 layout: projects/project
 title: Zineth Community Edition
 github: https://github.com/yellowberryHN/ZinethCommunityEdition
+description: >-
+  Zineth Community Edition is a fan-made mod for Zineth,
+  a game by Arcane Kids. it aims to expand upon the ideas present in the
+  original game, add new features, complete unfinished features, and polish the gameplay experience,
+  all while staying true to the games original aesthetics.
 ---
 Zineth Community Edition is a fan-made mod for [Zineth](https://zinethgame-blog.tumblr.com),
 a game by [Arcane Kids](https://arcanekids.com). it aims to expand upon the ideas present in the
