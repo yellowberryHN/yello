@@ -2,7 +2,7 @@
 
 - **ancient communication:**
   - email — [yellowberry@cocaine.ninja](mailto:yellowberry@cocaine.ninja) (public), [zsolt@harpnet.io](mailto:zsolt@harpnet.io) (business)
-  - cellular — [+1 (385) 200-1615](tel:+13852001615) (public)
+  - cellular — [+1 (385) 202-5955](tel:+13852025955) (public) \[google stole my old number\]
   - irc — zsoltisawesome on freenode
 - **instant messaging:**
   - skype — [zsoltisawesome](skype:zsoltisawesome?chat)
