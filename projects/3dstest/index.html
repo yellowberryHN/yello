@@ -80,9 +80,8 @@ document.onkeydown = checkKeycode;
       bTimeout = null,
       bPress = false;
 
-
       $("[name='buttoninput']").blur(function (e) {
-        $(this).focus();
+        this.focus();
         if (bPress == true) {
             clearTimeout(bTimeout);
             $(".b").css("color", "red");

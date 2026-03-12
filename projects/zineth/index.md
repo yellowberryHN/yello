@@ -77,9 +77,6 @@ these are provided as backups of historical versions of Zineth, for convenience.
 ### note
 
 this project could not have been possible without the efforts of the Arcane Kids, thank you!
-this has not been officially sanctioned by them, and it almost feels out of character
-to ask for permission, for some reason i just can't put my finger on.
+it has not been officially sanctioned by them, if one of you discover this project and like it, I'd love to hear about it!
 
-that being said, if one of you discover this project and like it, i'd love to hear about it!
-
-please reach out to me on [twitter](https://twitter.com/yellowberry__) or [any of my other lines](/)!
+please reach out to me on [bluesky](https://bsky.app/profile/yello.ooo) or [any of my other lines](/)!

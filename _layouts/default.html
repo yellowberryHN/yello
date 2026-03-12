@@ -1,37 +1,37 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#ffff00">
-    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#ffff00">
-    <meta name="msapplication-TileColor" content="#ffff00">
-    <meta name="msapplication-navbutton-color" content="#ffff00">
-    <meta name="application-name" content="{{ site.title }}">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#ffff00">
+        <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#ffff00">
+        <meta name="msapplication-TileColor" content="#ffff00">
+        <meta name="msapplication-navbutton-color" content="#ffff00">
+        <meta name="application-name" content="{{ site.title }}">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="og:site_name" content="{{ site.title }}">
-    <meta name="og:locale" content="{{ site.lang | default: 'en-US' | replace: '-', '_' }}">
-    <meta name="og:title" content="{{ page.title }}">
-    <meta name="og:url" content="{{ site.url }}{{ page.url }}">
-    {% if page.description %}
-    <meta name="og:description" content="{{ page.description }}">
-    {% endif %}
-    <meta name="og:type" content="website">
-    <meta name="twitter:site" content="@yellowberry__">
-    <meta name="twitter:creator" content="@yellowberry__">
+        <meta name="og:site_name" content="{{ site.title }}">
+        <meta name="og:locale" content="{{ site.lang | default: 'en-US' | replace: '-', '_' }}">
+        <meta name="og:title" content="{{ page.title }}">
+        <meta name="og:url" content="{{ site.url }}{{ page.url }}">
+        {% if page.description %}
+        <meta name="og:description" content="{{ page.description }}">
+        {% endif %}
+        <meta name="og:type" content="website">
+        <meta name="twitter:site" content="@yellowberry__">
+        <meta name="twitter:creator" content="@yellowberry__">
 
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="icon" type="image/png" href="/assets/icon/icon-32.png">
-    <title>{{ site.title }} — {{ page.title }}</title>
-  </head>
-  <body>
-  {% include github-corner.html github="https://github.com/yellowberryHN/yello" %}
-  {{ content }}
-  </body>
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        <link rel="icon" type="image/png" href="/assets/icon/icon-32.png">
+        <title>{{ site.title }} — {{ page.title }}</title>
+    </head>
+    <body>
+        {% include github-corner.html github="https://github.com/yellowberryHN/yello" %}
+        {{ content }}
+    </body>
 </html>

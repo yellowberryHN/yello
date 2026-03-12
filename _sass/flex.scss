@@ -114,9 +114,8 @@
 */
 
 @-moz-document url-prefix() {
-.flex-container {
-    width: 100%;
-    -moz-box-sizing: border-box;
+    .flex-container {
+        width: 100%;
+        -moz-box-sizing: border-box;
     }
-
 }

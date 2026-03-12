@@ -1,0 +1,19 @@
+<div class="color-picker" id="color-picker-{{ include.id }}">
+  <label for="color-{{ include.id }}">{{ include.name }}: </label>
+  <select id="color-{{ include.id }}" onchange="onChangeColor('{{ include.id }}')">
+    <option value='1'>Red</option>
+    <option value='2'>Blue</option>
+    <option value='3'>Green</option>
+    <option value='4'>Orange</option>
+    <option value='5'>Magenta</option>
+    <option value='6'>Yellow</option>
+    <option value='7'>Dark Yellow</option>
+    <option value='1001'>Dark Orange</option>
+    <option value='1002'>Bright Yellow</option>
+    <option value='1003'>Pure Green</option>
+    <option value='1004'>Dark Blue</option>
+    <option value='1005'>Light Blue</option>
+    <option value='1006'>Light Gray</option>
+  </select>
+  <div class="color-preview" id="color-preview-{{include.id}}"></div>
+</div>
