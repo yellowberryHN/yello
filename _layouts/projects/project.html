@@ -10,7 +10,7 @@
 
         <meta name="og:site_name" content="{{ site.title }}">
         <meta name="og:locale" content="{{ site.lang | default: 'en-US' | replace: '-', '_' }}">
-        <meta name="og:title" content="{{ project.name }}">
+        <meta name="og:title" content="{{ project.name | default: page.title }}">
         <meta name="og:url" content="{{ site.url }}{{ page.url }}">
         {% if page.description %}
             <meta name="og:description" content="{{ page.description }}">
