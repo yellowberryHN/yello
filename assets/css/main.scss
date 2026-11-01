@@ -1,5 +1,83 @@
 ---
 ---
 
-@import "colors";
-@import "base";
+@use "colors";
+
+@font-face {
+  font-family: 'Helvetica Neue LT Com';
+  src: url(/assets/font/font.woff);
+  font-weight: bold;
+}
+
+body {
+  background-color: colors.$backgroundColor;
+  font-family: monospace;
+  color: colors.$mainColor;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: colors.$headingColor;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 10px;
+  color: colors.$accentColor;
+}
+
+h1, h2 {
+  font-family: "Helvetica Neue LT Com", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: colors.$accentColor;
+}
+
+a:hover {
+  color: colors.$linkHoverColor;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.redtext, .redtext a, .redtext a:hover {
+  color: red !important;
+}
+
+.ascii {
+  color: colors.$accentColor;
+  pointer-events: none;
+  user-select: none;
+}
+
+.github-corner {
+  position:absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+  z-index: 10
+}
+
+.github-corner svg {
+  fill: colors.$accentColor;
+  color: colors.$backgroundColor;
+}
+
+@media (max-width: 480px) {
+  .github-corner {
+    display: none;
+  }
+}

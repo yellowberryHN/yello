@@ -13,11 +13,8 @@ description: it's like a trash compactor for your soul.
 
 {% include ascii.html %}
 
-hey there. thanks for visiting this site, i guess. i am a programmer from hungary living in southern california
-and i do a bunch of stuff. see my [resume](/resume.html) for more details. i think everything else
-here will be kinda boring, so that sucks.
-
-i always feel like i'm not good at programming. if anyone tells you otherwise, they think far too highly of me.
+hey there. thanks for visiting this site! i am a programmer from hungary living in southern california
+and i do a bunch of stuff. you can check out my projects, and where you can contact me below.
 
 {% include projects.md %}
 
